@@ -28,13 +28,13 @@ pip install -r requirements.txt
 ### PART 01 처음 만나는 LangChain
 
 
-**CHAPTER 01 RAG 이해하기**
+**CHAPTER 01 RAG 이해하기** → [`ch01/`](ch01/)
 
 | 절 | 내용 | 코드 | 정리 문서 | 비고 |
 |---|---|---|---|---|
 | 01 | RAG를 사용해야 하는 이유 | - | - |  |
 | 02 | RAG의 기막힌 능력 | - | - |  |
-| 03 | LangChain을 이용한 RAG 시스템 구축 | - | - |  |
+| 03 | LangChain을 이용한 RAG 시스템 구축 | [03_rag_basic_pdf_pipeline.ipynb](ch01/03_rag_basic_pdf_pipeline.ipynb) | [03_rag_basic_pdf_pipeline.md](ch01/03_rag_basic_pdf_pipeline.md) | PDF 로드 → 분할 → 임베딩 → FAISS → 리트리버 → 프롬프트 → LLM → 체인 8단계 |
 
 **CHAPTER 02 환경 설정** → [`ch02/`](ch02/)
 
